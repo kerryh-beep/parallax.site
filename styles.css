@@ -31,7 +31,7 @@ body {
   top: 0;
   width: 100%;
   background: rgb(45 43 46 / 70%);
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.904);
   z-index: 1000;
   backdrop-filter: blur(10px);
   padding: 0 1.5rem;
@@ -306,16 +306,59 @@ body {
 
 /* Footer */
 .footer {
-  height: 100vh;
+  padding: 2rem 1rem;
+  background: linear-gradient(to top, #000000, #1e1e1e);
+  color: #aaa;
+  font-size: 0.95rem;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+
   background: linear-gradient(#363636db, #000000db);
   color: #bbb;
   font-size: 1rem;
 }
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 800px;
+  text-align: center;
+}
+
 .footer-image {
-  max-width: 80vw;
+  max-width: 160px;
+  height: auto;
+
+  border-radius: 10%;
+  -webkit-mask-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 90%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 90%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+
+.footer-text {
+  margin: 0;
+  color: #ccc;
+  font-weight: 400;
+  font-family: system-ui, sans-serif;
+}
+
+.footer-image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 /* Responsive Layout */
@@ -502,4 +545,56 @@ body {
 
 .cta-button:hover {
   background-color: #009ddb;
+}
+
+.coming-soon-section {
+  min-height: 100vh;
+  background: linear-gradient(#000000db, #363636db);
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.coming-soon-content {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.coming-soon-content h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.coming-soon-content p {
+  font-size: 1.1rem;
+  color: #bbb;
+  line-height: 1.6;
+}
+
+.coming-soon-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.notify-btn {
+  background-color: #0077ff;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.notify-btn:hover {
+  background-color: #005fcc;
 }

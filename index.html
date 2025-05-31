@@ -31,7 +31,7 @@
           <li>
             <a href="GovernmentCapabilities.html">Government Capabilities</a>
           </li>
-          <li><a href="shop.html">Shop</a></li>
+          <!-- <li><a href="shop.html">Shop</a></li> -->
           <!-- <li>
             <a onclick="sendEmail();" style="cursor: pointer">Contact Us</a>
           </li> -->
@@ -99,6 +99,83 @@
 
       <div>
         <section class="page-section services" id="services">
+          <!-- <h2>Our Shop</h2> -->
+          <div class="services-list">
+            <div class="service-card">
+              <img src="images/custom-dev.svg" alt="Custom Website" />
+              <h3>Custom Website Building</h3>
+              <p>
+                From simple landing pages to full-featured business websites, we
+                build it all—tailored to your vision.
+              </p>
+              <!-- <p><strong>Starting at $499</strong></p> -->
+              <div class="service-details">
+                <hr />
+                <p>
+                  We offer end-to-end design and development with responsive
+                  layouts, SEO optimization, and performance tuning. Ideal for
+                  small businesses, portfolios, or organizations looking to
+                  stand out online.
+                </p>
+              </div>
+            </div>
+
+            <div class="service-card">
+              <!-- <img src="images/web-mobile.svg" alt="App Dev" /> -->
+              <img src="images/custom-app.png" alt="Web Mobile" />
+              <h3>Web - Mobile & Watch Apps</h3>
+              <!-- <h3>Application Development</h3> -->
+              <p>
+                Custom software, mobile and web apps, integrations, and more.
+                Engineered for performance and scale.
+              </p>
+              <!-- <p><strong>Starting at $1999</strong></p> -->
+              <div class="service-details">
+                <hr />
+                <p>
+                  We specialize in modern, high-performance web applications
+                  built with <strong>React.js</strong>—ideal for enterprise
+                  tools, internal platforms, and customer-facing dashboards. Our
+                  solutions emphasize responsive design, scalability, and
+                  maintainable architecture.
+                </p>
+                <p>
+                  Services include custom UI/UX and REST integration, design
+                  systems, web or mobile-first layouts tailored to your business
+                  operations and workflow needs.
+                </p>
+              </div>
+            </div>
+
+            <div class="service-card">
+              <!-- <img src="images/f18.png" alt="Media Services" />
+              <h3>Media Services</h3> -->
+              <img src="images/military.png" alt="Military Media" />
+              <h3>Military Media</h3>
+              <p>
+                Professional video and photo production to elevate your brand,
+                product, or event.
+              </p>
+              <p><strong>Custom pricing</strong></p>
+              <div class="service-details">
+                <hr />
+                <p>
+                  With over <strong>10 years of experience</strong> in
+                  photography, video production, and original music composition,
+                  we offer full-service creative media tailored to your brand or
+                  project. From cinematic visuals to professional sound design,
+                  we help you tell your story with style and clarity.
+                </p>
+                <p>
+                  Services include product and event photography, video shoots,
+                  post-production editing, and custom soundtrack composition for
+                  web, video, and live applications.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- <section class="page-section services" id="services">
           <h2>Our Services</h2>
           <div class="services-list">
             <div class="service-card" href="/shop.html">
@@ -114,7 +191,7 @@
               <h3>Military Media</h3>
             </div>
           </div>
-        </section>
+        </section> -->
       </div>
 
       <section class="landing-section" id="product">
@@ -138,9 +215,15 @@
       </section>
 
       <div>
-        <footer class="page-section footer">
-          <img src="images/logo.PNG" alt="logo" class="footer-image" />
-          <p>© 2025 Parallax. All rights reserved.</p>
+        <footer class="footer">
+          <div class="footer-content">
+            <img
+              src="images/logoFull.JPG"
+              alt="Parallax Logo"
+              class="footer-image"
+            />
+            <p class="footer-text">© 2025 Parallax. All rights reserved.</p>
+          </div>
         </footer>
       </div>
     </div>
@@ -185,9 +268,17 @@
         });
       });
 
+      // document.querySelectorAll('.service-card').forEach((card) => {
+      //   card.addEventListener('click', () => {
+      //     window.location.pathname = 'shop.html';
+      //   });
+      // });
+
       document.querySelectorAll('.service-card').forEach((card) => {
         card.addEventListener('click', () => {
-          window.location.pathname = 'shop.html';
+          // Toggle only this card's extra info
+          console.log('clicked', card);
+          card.classList.toggle('active');
         });
       });
 

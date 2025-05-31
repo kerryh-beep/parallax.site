@@ -31,149 +31,27 @@
       </div>
     </nav>
 
-    <section class="page-section services" id="shop">
-      <h2>Our Shop</h2>
-      <div class="services-list">
-        <div class="service-card">
-          <img src="images/custom-dev.svg" alt="Custom Website" />
-          <h3>Custom Website Building</h3>
-          <p>
-            From simple landing pages to full-featured business websites, we
-            build it all—tailored to your vision.
-          </p>
-          <!-- <p><strong>Starting at $499</strong></p> -->
-          <div class="service-details">
-            <hr />
-            <p>
-              We offer end-to-end design and development with responsive
-              layouts, SEO optimization, and performance tuning. Ideal for small
-              businesses, portfolios, or organizations looking to stand out
-              online.
-            </p>
-          </div>
-        </div>
-
-        <div class="service-card">
-          <img src="images/web-mobile.svg" alt="App Dev" />
-          <h3>Application Development</h3>
-          <p>
-            Custom software, mobile and web apps, integrations, and more.
-            Engineered for performance and scale.
-          </p>
-          <!-- <p><strong>Starting at $1999</strong></p> -->
-          <div class="service-details">
-            <hr />
-            <p>
-              We specialize in modern, high-performance web applications built
-              with <strong>React.js</strong>—ideal for enterprise tools,
-              internal platforms, and customer-facing dashboards. Our solutions
-              emphasize responsive design, scalability, and maintainable
-              architecture.
-            </p>
-            <p>
-              Services include custom UI/UX and REST integration, design
-              systems, web or mobile-first layouts tailored to your business
-              operations and workflow needs.
-            </p>
-          </div>
-        </div>
-
-        <div class="service-card">
-          <img src="images/f18.png" alt="Media Services" />
-          <h3>Media Services</h3>
-          <p>
-            Professional video and photo production to elevate your brand,
-            product, or event.
-          </p>
-          <p><strong>Custom pricing</strong></p>
-          <div class="service-details">
-            <hr />
-            <p>
-              With over <strong>10 years of experience</strong> in photography,
-              video production, and original music composition, we offer
-              full-service creative media tailored to your brand or project.
-              From cinematic visuals to professional sound design, we help you
-              tell your story with style and clarity.
-            </p>
-            <p>
-              Services include product and event photography, video shoots,
-              post-production editing, and custom soundtrack composition for
-              web, video, and live applications.
-            </p>
-          </div>
-        </div>
+    <section class="coming-soon-section services">
+      <div class="coming-soon-content">
+        <h1>Merch Shop Coming Soon</h1>
+        <p>
+          We're cooking up something awesome. Stay tuned for official Parallax
+          merch — made for those who move with purpose.
+        </p>
+        <img
+          src="images/merch-placeholder.png"
+          alt="Merch Preview"
+          class="coming-soon-image"
+        />
+        <button class="notify-btn">Notify Me</button>
       </div>
     </section>
 
-    <!-- <div class="order-container">
-      <section id="order-form" class="order-form-section">
-        <h2>Request a Custom Project</h2>
-        <form
-          id="projectForm"
-          action="https://formsubmit.co/your@email.com"
-          method="POST"
-          enctype="multipart/form-data"
-        >
-          <input type="hidden" name="_captcha" value="true" />
-
-          <input type="hidden" name="_template" value="box" />
-
-          <label for="service">Select a Service</label>
-          <select id="service" name="service" required>
-            <option value="">-- Choose a Service --</option>
-            <option value="branding">Branding & Design</option>
-            <option value="webdesign">Web Design</option>
-            <option value="application">Application Development</option>
-            <option value="digitalmedia">Digital Media</option>
-            <option value="other">Other</option>
-          </select>
-
-          <label for="planning">How much planning have you done?</label>
-          <select id="service" name="service" required>
-            <option value="">-- Choose an Amount --</option>
-            <option value="none">None</option>
-            <option value="concept">I have a concept of a plan</option>
-            <option value="moderate">A moderate amount</option>
-            <option value="complete">
-              I have a complete set of requirements
-            </option>
-            <option value="other">Other</option>
-          </select>
-
-          <label for="name">Your Name</label>
-          <input type="text" id="name" name="name" required />
-
-          <label for="email">Your Email</label>
-          <input type="email" id="email" name="email" required />
-
-          <label for="company">Company (Optional)</label>
-          <input type="text" id="company" name="company" />
-
-          <label for="description">Project Description</label>
-          <textarea
-            id="description"
-            name="description"
-            rows="6"
-            placeholder="Tell us about your project..."
-            required
-          ></textarea>
-
-          <label for="urgency">How soon do you need it?</label>
-          <select id="urgency" name="urgency" required>
-            <option value="">-- Choose Urgency --</option>
-            <option value="asap">ASAP</option>
-            <option value="1-week">Within 1 Week</option>
-            <option value="2-weeks">Within 2 Weeks</option>
-            <option value="flexible">Flexible</option>
-          </select>
-
-          <button type="submit">Submit Request</button>
-        </form>
-      </section>
-    </div> -->
-
-    <footer class="page-section footer">
-      <p>© 2025 Parallax. All rights reserved.</p>
+    <footer class="footer">
+      <div class="footer-content">
+        <img src="images/logoFull.JPG" alt="Parallax Logo" class="footer-image" />
+        <p class="footer-text">© 2025 Parallax. All rights reserved.</p>
+      </div>
     </footer>
 
     <script>
@@ -189,14 +67,6 @@
           navbarLinks.classList.remove('show');
         })
       );
-
-      document.querySelectorAll('.service-card').forEach((card) => {
-        card.addEventListener('click', () => {
-          // Toggle only this card's extra info
-          console.log('clicked', card);
-          card.classList.toggle('active');
-        });
-      });
     </script>
   </body>
 </html>
