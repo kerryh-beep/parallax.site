@@ -171,34 +171,77 @@ body {
 }
 
 /* About Section */
-.about {
+.about-section {
   min-height: 100vh;
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, rgba(0, 0, 1, 0.82), #0367a1b5);
+  color: #ffffff;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 2rem;
-  background: linear-gradient(#000001d1, 80%, #0367a1b5);
-  color: white;
+  justify-content: center;
+}
+
+.about-content {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .about-text {
-  width: 50%;
+  flex: 1 1 55%;
 }
 
-.about h2 {
+.about-text h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
 
-.about p {
-  font-size: 1.2rem;
+.about-text h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #d1ecff;
+}
+
+.about-text hr {
+  border: none;
+  height: 2px;
+  background: #ffffff33;
+  margin: 1rem 0;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
   color: #f6f6f6;
 }
 
+.about-tagline {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.6;
+  margin-top: 2rem;
+  color: #ffffff;
+}
+
+.about-image-wrapper {
+  flex: 1 1 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-image {
-  width: 40%;
-  border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  border-radius: 1rem;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
 }
 
 /* Services Section */
@@ -271,6 +314,9 @@ body {
   color: #bbb;
   font-size: 1rem;
 }
+.footer-image {
+  max-width: 80vw;
+}
 
 /* Responsive Layout */
 @media (max-width: 1024px) {
@@ -330,10 +376,12 @@ body {
   }
 }
 
-/* === Order Form Styles === */
+/* === Gov Form === */
 
 .order-container {
   background-color: #363636db;
+  height: 100%;
+  background-color: rgb(224, 224, 224);
 }
 
 .order-form-section {
@@ -342,7 +390,7 @@ body {
   padding: 2rem;
   background-color: hwb(0 98% 2%);
   border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(206, 206, 206, 0.1);
 }
 
 .order-form-section h2 {
