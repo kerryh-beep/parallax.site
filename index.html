@@ -101,7 +101,7 @@
         <section class="page-section services" id="services">
           <!-- <h2>Our Shop</h2> -->
           <div class="services-list">
-            <div class="service-card">
+            <div class="service-card active">
               <img src="images/custom-dev.svg" alt="Custom Website" />
               <h3>Custom Website Building</h3>
               <p>
@@ -120,7 +120,7 @@
               </div>
             </div>
 
-            <div class="service-card">
+            <div class="service-card active">
               <!-- <img src="images/web-mobile.svg" alt="App Dev" /> -->
               <img src="images/custom-app.png" alt="Web Mobile" />
               <h3>Web - Mobile & Watch Apps</h3>
@@ -147,7 +147,7 @@
               </div>
             </div>
 
-            <div class="service-card">
+            <div class="service-card active">
               <!-- <img src="images/f18.png" alt="Media Services" />
               <h3>Media Services</h3> -->
               <img src="images/military.png" alt="Military Media" />
@@ -276,8 +276,6 @@
 
       document.querySelectorAll('.service-card').forEach((card) => {
         card.addEventListener('click', () => {
-          // Toggle only this card's extra info
-          console.log('clicked', card);
           card.classList.toggle('active');
         });
       });
