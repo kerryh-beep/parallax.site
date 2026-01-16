@@ -284,7 +284,11 @@ body {
 }
 
 .service-card img {
+  height: 150px;
   max-height: 150px;
+  max-width: 150px;
+  width: auto;
+  object-fit: contain;
   margin-bottom: 1rem;
   border-radius: 10px;
 }
@@ -631,4 +635,16 @@ body {
 
 .veteran-owned {
   height: 80px;
+}
+
+.hero-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 60px);
+}
+
+.hero-center h1 {
+  margin: 0;
+  text-align: center;
 }
