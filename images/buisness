@@ -1,0 +1,26 @@
+<svg fill="#ffffff" height="800px" width="800px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488.477 488.477" stroke="#ffffff">
+<g>
+  <!-- Briefcase body -->
+  <path d="M422.477,148.998H66c-13.807,0-25,11.193-25,25v230c0,13.807,11.193,25,25,25h356.477c13.807,0,25-11.193,25-25v-230
+    C447.477,160.191,436.284,148.998,422.477,148.998z M438.977,403.998c0,9.098-7.402,16.5-16.5,16.5H66
+    c-9.098,0-16.5-7.402-16.5-16.5v-230c0-9.098,7.402-16.5,16.5-16.5h356.477c9.098,0,16.5,7.402,16.5,16.5V403.998z"/>
+  <!-- Briefcase handle -->
+  <path d="M322.238,148.998v-30c0-19.299-15.701-35-35-35H201.238c-19.299,0-35,15.701-35,35v30h8.5v-30
+    c0-14.612,11.888-26.5,26.5-26.5h85.999c14.612,0,26.5,11.888,26.5,26.5v30H322.238z"/>
+  <!-- Middle divider strip -->
+  <path d="M447.477,228.998H41v8.5h406.477V228.998z"/>
+  <!-- Center clasp -->
+  <path d="M264.238,218.998h-40c-5.523,0-10,4.477-10,10v20c0,5.523,4.477,10,10,10h40c5.523,0,10-4.477,10-10v-20
+    C274.238,223.475,269.761,218.998,264.238,218.998z M265.738,248.998c0,0.827-0.673,1.5-1.5,1.5h-40c-0.827,0-1.5-0.673-1.5-1.5
+    v-20c0-0.827,0.673-1.5,1.5-1.5h40c0.827,0,1.5,0.673,1.5,1.5V248.998z"/>
+  <!-- Chart bars inside briefcase -->
+  <rect x="120" y="290" width="30" height="80" rx="4" ry="4" fill="none" stroke="#ffffff" stroke-width="8.5"/>
+  <rect x="175" y="260" width="30" height="110" rx="4" ry="4" fill="none" stroke="#ffffff" stroke-width="8.5"/>
+  <rect x="230" y="310" width="30" height="60" rx="4" ry="4" fill="none" stroke="#ffffff" stroke-width="8.5"/>
+  <rect x="285" y="240" width="30" height="130" rx="4" ry="4" fill="none" stroke="#ffffff" stroke-width="8.5"/>
+  <rect x="340" y="275" width="30" height="95" rx="4" ry="4" fill="none" stroke="#ffffff" stroke-width="8.5"/>
+  <!-- Trend arrow -->
+  <polyline points="135,320 190,290 245,335 300,265 355,298" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="355,298 345,280 365,288" fill="#ffffff"/>
+</g>
+</svg>
