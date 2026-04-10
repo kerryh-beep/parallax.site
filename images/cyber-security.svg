@@ -1,0 +1,35 @@
+<svg fill="#ffffff" height="800px" width="800px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488.477 488.477" stroke="#ffffff">
+<g>
+  <!-- Shield outline -->
+  <path d="M244.238,62.998c-2.348,0-4.25,1.902-4.25,4.25c0,0-0.5,0-0.5,0L96.238,112.998c-4.5,1.8-7.5,6.1-7.5,11v120
+    c0,70,55,145,155.5,182c2.5,1,5.5,1,8,0c100.5-37,155.5-112,155.5-182v-120c0-4.9-3-9.2-7.5-11L256.988,67.248
+    c0,0-0.5,0-0.5,0C254.138,64.898,249.238,62.998,244.238,62.998z M399.238,243.998c0,62.5-49.5,131-147,165.5
+    c-97.5-34.5-147-103-147-165.5v-115.5l147-43.5l147,43.5V243.998z"/>
+  <!-- Lock body -->
+  <rect x="194.238" y="248.998" width="100" height="80" rx="10" ry="10" fill="none" stroke="#ffffff" stroke-width="8.5"/>
+  <!-- Lock shackle -->
+  <path d="M214.238,248.998v-30c0-16.569,13.431-30,30-30c16.569,0,30,13.431,30,30v30" fill="none" stroke="#ffffff" stroke-width="8.5" stroke-linecap="round"/>
+  <!-- Keyhole -->
+  <circle cx="244.238" cy="280.998" r="12" fill="none" stroke="#ffffff" stroke-width="7"/>
+  <rect x="240.238" y="288.998" width="8" height="20" rx="3" ry="3" fill="#ffffff"/>
+  <!-- Circuit nodes - top left -->
+  <circle cx="150.238" cy="160.998" r="5" fill="#ffffff"/>
+  <line x1="150.238" y1="165.998" x2="150.238" y2="200.998" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <line x1="150.238" y1="160.998" x2="180.238" y2="160.998" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <!-- Circuit nodes - top right -->
+  <circle cx="338.238" cy="160.998" r="5" fill="#ffffff"/>
+  <line x1="338.238" y1="165.998" x2="338.238" y2="200.998" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <line x1="338.238" y1="160.998" x2="308.238" y2="160.998" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <!-- Circuit nodes - bottom left -->
+  <circle cx="160.238" cy="350.998" r="5" fill="#ffffff"/>
+  <line x1="160.238" y1="350.998" x2="194.238" y2="350.998" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <line x1="160.238" y1="350.998" x2="160.238" y2="320.998" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <!-- Circuit nodes - bottom right -->
+  <circle cx="328.238" cy="350.998" r="5" fill="#ffffff"/>
+  <line x1="328.238" y1="350.998" x2="294.238" y2="350.998" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <line x1="328.238" y1="350.998" x2="328.238" y2="320.998" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <!-- Small accent dots -->
+  <circle cx="180.238" cy="200.998" r="4" fill="#ffffff"/>
+  <circle cx="308.238" cy="200.998" r="4" fill="#ffffff"/>
+</g>
+</svg>

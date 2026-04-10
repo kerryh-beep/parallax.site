@@ -1,0 +1,54 @@
+<svg fill="#ffffff" height="800px" width="800px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488.477 488.477" stroke="#ffffff">
+<g>
+  <!-- Brain left hemisphere outline -->
+  <path d="M230.238,100.998c-45,0-82,20-102,52c-15,24-22,54-22,86c0,35,12,65,34,88c18,19,42,32,68,38v40
+    c0,4.694,3.806,8.5,8.5,8.5h12c4.694,0,8.5-3.806,8.5-8.5v-40.5" 
+    fill="none" stroke="#ffffff" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Brain right hemisphere outline -->
+  <path d="M258.238,100.998c45,0,82,20,102,52c15,24,22,54,22,86c0,35-12,65-34,88c-18,19-42,32-68,38v40
+    c0,4.694-3.806,8.5-8.5,8.5h-12c-4.694,0-8.5-3.806-8.5-8.5v-40.5"
+    fill="none" stroke="#ffffff" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Brain center divider -->
+  <line x1="244.238" y1="100.998" x2="244.238" y2="365.998" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-dasharray="12,8"/>
+  <!-- Brain folds - left -->
+  <path d="M140.238,190.998c30,5,55,0,80-10" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <path d="M125.238,250.998c35,8,65,5,95-8" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <path d="M148.238,310.998c28,5,52,2,76-12" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <!-- Brain folds - right -->
+  <path d="M348.238,190.998c-30,5-55,0-80-10" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <path d="M363.238,250.998c-35,8-65,5-95-8" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <path d="M340.238,310.998c-28,5-52,2-76-12" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Neural network nodes - input layer (left) -->
+  <circle cx="80.238" cy="170.998" r="10" fill="none" stroke="#ffffff" stroke-width="5"/>
+  <circle cx="80.238" cy="240.998" r="10" fill="none" stroke="#ffffff" stroke-width="5"/>
+  <circle cx="80.238" cy="310.998" r="10" fill="none" stroke="#ffffff" stroke-width="5"/>
+  
+  <!-- Neural network nodes - output layer (right) -->
+  <circle cx="408.238" cy="170.998" r="10" fill="none" stroke="#ffffff" stroke-width="5"/>
+  <circle cx="408.238" cy="240.998" r="10" fill="none" stroke="#ffffff" stroke-width="5"/>
+  <circle cx="408.238" cy="310.998" r="10" fill="none" stroke="#ffffff" stroke-width="5"/>
+  
+  <!-- Connection lines - left nodes to brain -->
+  <line x1="90.238" y1="170.998" x2="115.238" y2="185.998" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <line x1="90.238" y1="240.998" x2="115.238" y2="245.998" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <line x1="90.238" y1="310.998" x2="115.238" y2="305.998" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Connection lines - brain to right nodes -->
+  <line x1="398.238" y1="170.998" x2="373.238" y2="185.998" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <line x1="398.238" y1="240.998" x2="373.238" y2="245.998" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <line x1="398.238" y1="310.998" x2="373.238" y2="305.998" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Small data dots floating -->
+  <circle cx="60.238" cy="200.998" r="3" fill="#ffffff" opacity="0.5"/>
+  <circle cx="65.238" cy="275.998" r="3" fill="#ffffff" opacity="0.5"/>
+  <circle cx="428.238" cy="200.998" r="3" fill="#ffffff" opacity="0.5"/>
+  <circle cx="423.238" cy="275.998" r="3" fill="#ffffff" opacity="0.5"/>
+  
+  <!-- Top chip/processor accent -->
+  <rect x="224.238" y="68.998" width="40" height="24" rx="4" ry="4" fill="none" stroke="#ffffff" stroke-width="5"/>
+  <line x1="234.238" y1="68.998" x2="234.238" y2="58.998" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <line x1="244.238" y1="68.998" x2="244.238" y2="58.998" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <line x1="254.238" y1="68.998" x2="254.238" y2="58.998" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+</g>
+</svg>
